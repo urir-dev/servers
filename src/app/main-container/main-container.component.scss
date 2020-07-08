@@ -1,0 +1,97 @@
+.statusline
+{
+    display: grid;
+    justify-content: center;
+    height: 10vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    background-color: rgb(224, 224, 224);
+    border: solid #e5ffc8;
+    border-radius: 20px;
+
+}
+
+.widthWrapper
+{
+
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+
+
+.twoWrapper
+{
+    display: grid;
+    grid-template-columns:50% 50%;
+    justify-content: left;
+    column-gap: 20px;
+
+}
+
+.wrapper {
+    height: 80vh;
+    background-color: rgb(224, 224, 224);
+    display: grid;
+    border-radius: 5px;
+    border: solid rgb(168, 168, 168);
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 80%;
+    justify-content: center;
+    justify-self:start;
+}
+
+.sidebar {
+    height: 80vh;
+    background-color: rgb(243, 243, 243);
+    display: grid;
+    border-radius: 10px;
+    border: solid black;
+    margin:0;
+    padding: 0;
+    width: 40%;
+    justify-self: end;
+
+}
+
+.square {
+    margin-top: 20px;
+    height: 30vh;
+    width: 30vh;
+    justify-self: center;
+}
+
+
+.red {
+    background-color: rgb(179, 49, 49);
+    border-radius: 10px;
+    border: solid black;
+}
+
+.blue {
+    background-color: rgb(108, 188, 224);
+    border-radius: 10px;
+    border: solid black;
+}
+
+.yellow {
+    background-color: rgb(252, 238, 115);
+    border-radius: 10px;
+    border: solid black;
+}
+
+
+.green {
+    background-color: rgb(147, 224, 144);
+    border-radius: 10px;
+    border: solid black;
+}
+
